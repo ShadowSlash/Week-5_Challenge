@@ -1,3 +1,0 @@
-123 + 321 = 444
-123 / 0 = You cannot divide by Zero
-123 / 0 =  ERROR! You cannot divide by Zero

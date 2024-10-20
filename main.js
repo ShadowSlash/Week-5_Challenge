@@ -7,7 +7,7 @@ const equationInput = process.argv.slice(2); // This returns a copy of the messa
 const filePath = path.join(__dirname, "storedInfo.txt");
 
 // Grabing the functions from "calculate" file
-const calculated = require("./calculate.js");
+const calculated = require("./calculate");
 
 // This destructures the message array with 3 new variables. "num1", "opp", "num2".
 let [num1, opp, num2] = equationInput;
