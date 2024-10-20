@@ -7,7 +7,7 @@ const equationInput = process.argv.slice(2); // This returns a copy of the messa
 const filePath = path.join(__dirname, "storedInfo.txt");
 
 // Grabing the functions from "calculate" file
-const calculated = require("./calculate.js")
+const calculated = require("./calculate.js");
 
 // This destructures the message array with 3 new variables. "num1", "opp", "num2".
 let [num1, opp, num2] = equationInput;
@@ -18,19 +18,19 @@ num2 = Number(num2);
 
 switch (opp) {
     case "+":
-        result = calculated.addition(num1, num2)
+      result = calculated.addition(num1, num2);
     break;
     
     case "-":
-        result = calculated.subtraction(num1, num2)
+      result = calculated.subtraction(num1, num2);
     break;
 
     case "/":
-        result = calculated.division(num1, num2)
+      result = calculated.division(num1, num2);
     break;
 
     case "*":
-        result = calculated.multiplication(num1, num2)
+      result = calculated.multiplication(num1, num2);
     break;
 };
 
